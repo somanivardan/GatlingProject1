@@ -1,0 +1,16 @@
+RUN	test.scala.APITesting.PutPostDeleteAPI	putpostdeleteapi	1656993916650	run1	3.6.1
+USER	Create User	START	1656993918723
+REQUEST		02_Post_API	1656993918743	1656993919338	KO	jsonPath($.name).find.is(Vardan), but actually found morpheus
+USER	Create User	START	1656993919714
+REQUEST		02_Post_API	1656993919715	1656993920295	KO	jsonPath($.name).find.is(Vardan), but actually found morpheus
+USER	Create User	END	1656993920412
+USER	Create User	START	1656993920714
+USER	Create User	END	1656993921298
+REQUEST		02_Post_API	1656993920715	1656993921299	KO	jsonPath($.name).find.is(Vardan), but actually found morpheus
+USER	Create User	START	1656993921709
+REQUEST		02_Post_API	1656993921710	1656993922287	KO	jsonPath($.name).find.is(Vardan), but actually found morpheus
+USER	Create User	END	1656993922302
+USER	Create User	START	1656993922710
+USER	Create User	END	1656993923290
+REQUEST		02_Post_API	1656993922711	1656993923296	KO	jsonPath($.name).find.is(Vardan), but actually found morpheus
+USER	Create User	END	1656993924299

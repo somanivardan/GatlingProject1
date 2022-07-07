@@ -1,0 +1,10 @@
+{
+  "simulation": "test.scala.com.gatling.tests.APITest1",
+  "simulationId": "apitest1",
+  "start": 1656992889244,
+  "description": "run1",
+  "scenarios": ["API Test"],
+  "assertions": [
+
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "simulation": "com.gatling.tests.ComputerEdit",
+  "simulationId": "computeredit",
+  "start": 1656487546683,
+  "description": "run1",
+  "scenarios": ["ComputerEdit"],
+  "assertions": [
+
+  ]
+}

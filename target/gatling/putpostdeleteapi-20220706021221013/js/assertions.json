@@ -1,0 +1,10 @@
+{
+  "simulation": "test.scala.APITesting.PutPostDeleteAPI",
+  "simulationId": "putpostdeleteapi",
+  "start": 1657073541013,
+  "description": "run4",
+  "scenarios": ["Create User", "Update User", "Delete User"],
+  "assertions": [
+
+  ]
+}
